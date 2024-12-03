@@ -1,0 +1,55 @@
+﻿input[type="text"],
+textarea {
+    border: 1px solid #ced4da; /* Define un borde gris claro para los campos */
+    border-radius: 5px; /* Bordes ligeramente redondeados */
+    padding: 10px; /* Espaciado interno (relleno) para que el texto no quede pegado al borde */
+    transition: all 0.3s ease; /* Añade una transición suave para cambios de estilo */
+}
+
+    input[type="text"]:focus,
+    textarea:focus {
+        border-color: #80bdff; /* Cambia el color del borde al enfocarse */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Agrega un brillo azul alrededor */
+    }
+
+
+.btn-custom {
+    background-color: #007bff; /* Color de fondo azul (similar al primario de Bootstrap) */
+    color: #fff; /* Texto blanco */
+    border-radius: 20px; /* Bordes muy redondeados */
+    padding: 10px 20px; /* Espaciado interno horizontal y vertical */
+    transition: background-color 0.3s ease; /* Suaviza el cambio del color de fondo */
+}
+
+    .btn-custom:hover {
+        background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+        color: #fff; /* Mantiene el texto blanco */
+    }
+
+
+.table-custom {
+    border-collapse: collapse; /* Elimina los espacios entre bordes de las celdas */
+    width: 100%; /* Asegura que la tabla ocupe todo el ancho disponible */
+    margin: 20px 0; /* Añade espacio vertical alrededor de la tabla */
+    border: 1px solid #ddd; /* Borde gris claro para la tabla */
+}
+
+    .table-custom th,
+    .table-custom td {
+        padding: 12px 15px; /* Espaciado interno uniforme para encabezados y celdas */
+        border: 1px solid #ddd; /* Bordes separados para las celdas */
+        text-align: left; /* Alineación del texto a la izquierda */
+    }
+
+    .table-custom th {
+        background-color: #007bff; /* Fondo azul para el encabezado */
+        color: #fff; /* Texto blanco para los encabezados */
+    }
+
+    .table-custom tr:nth-child(even) {
+        background-color: #f9f9f9; /* Fondo gris claro para filas pares */
+    }
+
+    .table-custom tr:hover {
+        background-color: #f1f1f1; /* Fondo más claro al pasar el mouse */
+    }
